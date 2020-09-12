@@ -1,5 +1,5 @@
 var view = UserView(w,Rect(0, 0, 10000, 10000)); //create a view to draw on
-view.background = Color.rand; //set background color so it doesn't clash with message background... haha
+view.background = Color.rand; // set random background color
 view.front; //open the view
 
 t = StaticText(view, Rect(10, 10, 700, 350));//add a message:
@@ -14,7 +14,7 @@ t.string = "Hi! to begin, press any key and move your mouse to explore a sonic s
 
 
 // make the text look not awful
-t.background=Color.rand;
+t.background=Color.rand; // set text background color randomly
 t.align = \left; t
 t.font = Font("Helvetica", 20);
 
