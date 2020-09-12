@@ -1,3 +1,5 @@
+Server.default.boot; //boot server
+
 var view = UserView(w,Rect(0, 0, 10000, 10000)); //create a view to draw on
 view.background = Color.rand; // set random background color
 view.front; //open the view
@@ -15,7 +17,7 @@ t.string = "Hi! to begin, press any key and move your mouse to explore a sonic s
 
 // make the text look not awful
 t.background=Color.rand; // set text background color randomly
-t.align = \left; t
+t.align = \left;
 t.font = Font("Helvetica", 20);
 
 view.mouseDownAction = {//on click:
