@@ -1,5 +1,7 @@
+//first run just the server boot
 Server.default.boot; //boot server
 
+//now run the rest all at once & enjoy:)
 var view = UserView(w,Rect(0, 0, 10000, 10000)); //create a view to draw on
 view.background = Color.rand; // set random background color
 view.front; //open the view
